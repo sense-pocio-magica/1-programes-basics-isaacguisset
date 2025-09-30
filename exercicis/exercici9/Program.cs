@@ -7,6 +7,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Introdueix el valor en metres per tal de convertir-lo a peus");
+        var metres = Convert.ToInt32(Console.ReadLine());
+        double peu = 3.28084;
+        var resultat = metres * peu;
+        Console.WriteLine(resultat);
     }
 }

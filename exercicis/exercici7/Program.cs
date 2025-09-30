@@ -7,6 +7,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        double n_matematiques = 5.50;
+        double n_angles = 3.50;
+        double n_basedades = 7;
+        var suma = n_matematiques + n_angles + n_basedades;
+        var mitjana = suma / 3;
+        Console.WriteLine($"La mitjana és {mitjana}");
     }
 }
