@@ -6,6 +6,20 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var nom = "Ratolí ThunderX3";
+        float preu = 35.99;
+        bool estoc = false;
+        if (estoc == false)
+        {
+            var estocverbose = "disponible";
+        }
+        else
+        {
+            var estocverbose = "no disponible";
+        }
+        float compres_ultim_any = 300;
+        Console.WriteLine($"El producte {nom} amb preu {preu} esta {estocverbose} i té {compres_ultim_any} compres l'últim any.");
+
+
     }
 }
