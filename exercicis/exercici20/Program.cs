@@ -9,20 +9,20 @@ El número invertit és: 743
 */
 
 
-    class Program
+class Program
+{
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.Write("Entra el número a invertir: ");
-            string numero = Console.ReadLine() ?? "0";
+        Console.Write("Entra el número a invertir: ");
+        string numero = Console.ReadLine() ?? "0";
 
-            char[] digitos = numero.ToCharArray();
-            Array.Reverse(digitos);
+        char[] digits = numero.ToCharArray();
+        Array.Reverse(digits);
 
-            string  = new string(digitos);
+        string numeroInvertit = new string(digits);
 
-            Console.WriteLine($"El número invertit és: {numeroInvertido}");
-        }
+        Console.WriteLine($"El número invertit és: {numeroInvertit}");
     }
+}
 
 

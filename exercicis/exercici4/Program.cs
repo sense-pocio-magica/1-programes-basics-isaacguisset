@@ -17,7 +17,7 @@ class Program
 
         if (double.TryParse(input, out double euros)) // comprovar que sigui un numero per evitar que el codi peti
         {
-            int pessetes = (int)Math.Round(euros * 166.386); // utilitzo mat round perque les pesetes no tenen decimals
+            int pessetes = (int)Math.Round(euros * 166.386); // utilitzo math round perque les pesetes no tenen decimals
             Console.WriteLine($"{euros}€ equivalen a {pessetes} pessetes");
         }
         else

@@ -9,9 +9,10 @@ class Program
     {
         double n_matematiques = 5.50;
         double n_angles = 3.50;
-        double n_basedades = 7;
+        double n_basedades = 7.7;
         var suma = n_matematiques + n_angles + n_basedades;
         var mitjana = suma / 3;
-        Console.WriteLine($"La mitjana és {mitjana}");
+        var mitjana_dosdecimals = Math.Round(mitjana, 2);
+        Console.WriteLine($"La mitjana és {mitjana_dosdecimals}");
     }
 }

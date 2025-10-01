@@ -12,9 +12,9 @@ class Program
         Console.WriteLine("Introdueix el teu carrer: ");
         var carrer = Console.ReadLine();
         Console.WriteLine("Introdueix el número de carrer: ");
-        var numerodecarrer = Convert.ToInt(Console.ReadLine());
+        var numerodecarrer = Convert.ToInt16(Console.ReadLine());
         Console.WriteLine("Introdueix el codi postal");
-        var codipostal = Convert.ToInt(Console.ReadLine());
+        var codipostal = Convert.ToInt16(Console.ReadLine());
         Console.WriteLine("Introdueix la teva població");
         var poblacio = Console.ReadLine();
 
