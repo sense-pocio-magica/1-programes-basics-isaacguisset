@@ -22,8 +22,8 @@ class Program
         Console.Write("Entra la data sense formatar (DDMMAAAA): ");
 
         string data = Console.ReadLine();
-        while (true)
-        {
+       
+        
             if (data.Length > 8)
             {
                 Console.WriteLine("La data que has introduit no és correcte, ha de tenir 8 caràcters i en format DDMMAAAA - Exemple: 04202025");
@@ -35,7 +35,7 @@ class Program
                 string any = data.Substring(4);
                 Console.WriteLine($"La data és {dia}/{mes}/{any}");
             }
-        }
+        
 
 
 
