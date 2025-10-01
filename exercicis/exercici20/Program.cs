@@ -19,7 +19,7 @@ El número invertit és: 743
             char[] digitos = numero.ToCharArray();
             Array.Reverse(digitos);
 
-            string numeroInvertido = new string(digitos);
+            string  = new string(digitos);
 
             Console.WriteLine($"El número invertit és: {numeroInvertido}");
         }

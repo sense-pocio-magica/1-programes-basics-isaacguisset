@@ -12,11 +12,10 @@
 
             double notaFinal = practiques * 0.3 + examen * 0.7;
 
-            double notaDecimal = Math.Round(notaFinal * 10) / 10.0;
+            double notaArrodonida = Math.Round(notaFinal);
 
-            // no sé com hem de calcular la nota  :/
-
-            Console.WriteLine($"La nota final és {notaDecimal} o sigui un {notaEntera}");
+            
+            Console.WriteLine($"La nota final és {notaFinal} o sigui un {notaArrodonida}");
         }
     }
 }

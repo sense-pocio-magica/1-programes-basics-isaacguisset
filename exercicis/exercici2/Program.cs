@@ -20,7 +20,7 @@ class Program
 
         Console.WriteLine($"La direcció introduida és carrer {carrer} numero {numerodecarrer},{codipostal}, {poblacio} ");
 
-        
+
 
     }
 }
