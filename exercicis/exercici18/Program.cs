@@ -11,7 +11,7 @@ D'aquí a 3 hores seran les 12
 Hora actual: 11
 Hores a incrementar: 3
 D'aquí a 3 hores seran les 2
-*/ 
+*/
 
 class Program
 {
@@ -35,3 +35,23 @@ class Program
 
     }
 }
+
+// namespace exercici18
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             Console.Write("Hora actual: ");
+//             int hora_actual = Convert.ToInt16(Console.ReadLine());
+
+//             Console.Write("Hores a incrementar: ");
+//             int hores_a_incrementar = Convert.ToInt16(Console.ReadLine());
+
+//             // Calculamos la hora final usando módulo 24
+//             int hora_final = (hora_actual + hores_a_incrementar) % 24;
+
+//             Console.WriteLine($"D'aquí a {hores_a_incrementar} hores seran les {hora_final}");
+//         }
+//     }
+// }

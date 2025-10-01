@@ -24,7 +24,7 @@ class Program
 
         string dia = data.Substring(0, 2);
         string mes = data.Substring(2, 2);
-        string any = data.Substring(4, 4);
+        string any = data.Substring(4); // aqui no he posat els caracters que ha dagafar ja que vull agafar els restants per tant només li he d'inidicar el principi
 
         Console.WriteLine($"La data és {dia}/{mes}/{any}");
 
