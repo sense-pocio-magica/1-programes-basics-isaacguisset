@@ -7,7 +7,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        var minuts = 60;
+        var minuts = 120;
         var hores_minut = 60;
         var hores = minuts / hores_minut;
         var minutsrestants = minuts % hores_minut;
