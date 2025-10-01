@@ -20,14 +20,22 @@ class Program
 
 
         Console.Write("Entra la data sense formatar (DDMMAAAA): ");
-        string data = Console.ReadLine();
+        
+            string data = Console.ReadLine();
+        if (data.Length > 8)
+        {
+            Console.WriteLine("La data que has introduit no és correcte, ha de tenir 8 caràcters i en format DDMMAAAA - Exemple: 04202025");
+        }
+        else
+        {
+                string dia = data.Substring(0, 2);
+            string mes = data.Substring(2, 2);
+            string any = data.Substring(4);
+            Console.WriteLine($"La data és {dia}/{mes}/{any}");
+        }
 
-        string dia = data.Substring(0, 2);
-        string mes = data.Substring(2, 2);
-        string any = data.Substring(4); // aqui no he posat els caracters que ha dagafar ja que vull agafar els restants per tant només li he d'inidicar el principi
-
-        Console.WriteLine($"La data és {dia}/{mes}/{any}");
-
+            
+       
     }
 }
 

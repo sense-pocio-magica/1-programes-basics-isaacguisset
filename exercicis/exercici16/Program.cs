@@ -14,7 +14,7 @@
 
             double notaDecimal = Math.Round(notaFinal * 10) / 10.0;
 
-            // no sé com hem de calcular la nota osigui
+            // no sé com hem de calcular la nota  :/
 
             Console.WriteLine($"La nota final és {notaDecimal} o sigui un {notaEntera}");
         }
