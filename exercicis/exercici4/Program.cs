@@ -13,9 +13,17 @@ class Program
     static void Main()
     {
         Console.Write("Introdueix el valor en euros: ");
-        double euros = Convert.ToDouble(Console.ReadLine());
+        string input = Console.ReadLine();
 
-        int pessetes = (int)(euros * 166.386); // sense decimals ja que les pesetes no tenen decimals
-        Console.WriteLine($"{euros}€ equivalen a {pessetes} pessetes");
+        if (double.TryParse(input, out double euros)) // comprovar que sigui un numero per evitar que el codi peti
+        {
+            int pessetes = (int)Math.Round(euros * 166.386); // utilitzo mat round perque les pesetes no tenen decimals
+            Console.WriteLine($"{euros}€ equivalen a {pessetes} pessetes");
+        }
+        else
+        {
+            Console.WriteLine("Has d'introduir un número vàlid.");
+        }
+
     }
 }
