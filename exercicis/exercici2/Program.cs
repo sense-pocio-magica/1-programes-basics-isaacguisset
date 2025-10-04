@@ -8,17 +8,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Aquest programa serveix per emmagatzemar la teva adreça");
-        Console.WriteLine("Introdueix el teu carrer: ");
-        var carrer = Console.ReadLine();
-        Console.WriteLine("Introdueix el número de carrer: ");
-        var numerodecarrer = Convert.ToInt16(Console.ReadLine());
-        Console.WriteLine("Introdueix el codi postal");
-        var codipostal = Convert.ToInt16(Console.ReadLine());
-        Console.WriteLine("Introdueix la teva població");
-        var poblacio = Console.ReadLine();
+        var carrer = "narcis munturiol";
+        var n_carrer = 5;
+        var codipostal = 17600;
+        var poblacio = "Figueres";
 
-        Console.WriteLine($"La direcció introduida és carrer {carrer} numero {numerodecarrer},{codipostal}, {poblacio} ");
+        Console.WriteLine($"La direcció introduida és carrer {carrer} numero {n_carrer},{codipostal}, {poblacio} ");
 
 
 

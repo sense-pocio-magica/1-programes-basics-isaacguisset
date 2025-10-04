@@ -43,7 +43,7 @@ class Program
             Console.WriteLine($"{a} + {b} = {suma}");
             Console.WriteLine($"{a} - {b} = {resta}");
             Console.WriteLine($"{a} * {b} = {multiplicacio}");
-            Console.WriteLine($"{a} / {b} = {divisio} i en sobra {divisio_resta}");
+            Console.WriteLine($"{a} / {b} = {divisio} i en sobren {divisio_resta}");
         }
         catch (Exception)
         {

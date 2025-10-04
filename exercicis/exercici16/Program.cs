@@ -15,7 +15,7 @@
             double notaArrodonida = Math.Round(notaFinal);
 
             
-            Console.WriteLine($"La nota final és {notaFinal} o sigui un {notaArrodonida}");
+            Console.WriteLine($"La nota final és {notaFinal:F2} o sigui un {notaArrodonida}");
         }
     }
 }

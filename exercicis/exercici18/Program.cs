@@ -1,5 +1,4 @@
-﻿namespace exercici18;
-
+﻿namespace exercici18
 /* Un rellotger està perdent la memòria i necessita un programa que a partir de l'hora actual li puguem dir
  quina hora serà d’aquí un nombre determinat d’hores.
 
@@ -13,45 +12,23 @@ Hores a incrementar: 3
 D'aquí a 3 hores seran les 2
 */
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Hora actual: ");
-        var hora_actual = Convert.ToInt16(Console.ReadLine());
-        Console.WriteLine("Hores a incrementar: ");
-        var hores_a_incrementar = Convert.ToInt16(Console.ReadLine());
-        var hores_diaries = 24;
-        if (hora_actual + hores_a_incrementar >= 24)
-        {
-            var hora_final = hora_actual + hores_a_incrementar - hores_diaries;
-            Console.WriteLine(hora_final);
-        }
-        else
-        {
-            var hora_final = hora_actual + hores_a_incrementar;
-            Console.WriteLine(hora_final);
-        }
 
+
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Hora actual: ");
+            int hora_actual = Convert.ToInt16(Console.ReadLine());
+
+            Console.Write("Hores a incrementar: ");
+            int hores_a_incrementar = Convert.ToInt16(Console.ReadLine());
+
+            // utilitzem el modul
+            int hora_final = (hora_actual + hores_a_incrementar) % 24;
+
+            Console.WriteLine($"D'aquí a {hores_a_incrementar} hores seran les {hora_final}");
+        }
     }
 }
-
-// namespace exercici18
-// {
-//     class Program
-//     {
-//         static void Main(string[] args)
-//         {
-//             Console.Write("Hora actual: ");
-//             int hora_actual = Convert.ToInt16(Console.ReadLine());
-
-//             Console.Write("Hores a incrementar: ");
-//             int hores_a_incrementar = Convert.ToInt16(Console.ReadLine());
-
-//             // Calculamos la hora final usando módulo 24
-//             int hora_final = (hora_actual + hores_a_incrementar) % 24;
-
-//             Console.WriteLine($"D'aquí a {hores_a_incrementar} hores seran les {hora_final}");
-//         }
-//     }
-// }
