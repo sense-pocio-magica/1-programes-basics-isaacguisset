@@ -17,6 +17,29 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+
+
+        Console.Write("Entra la data sense formatar (DDMMAAAA): ");
+
+        string data = Console.ReadLine();
+       
+        
+            if (data.Length > 8)
+            {
+                Console.WriteLine("La data que has introduit no és correcte, ha de tenir 8 caràcters i en format DDMMAAAA - Exemple: 04202025");
+            }
+            else
+            {
+                string dia = data.Substring(0, 2);
+                string mes = data.Substring(2, 2);
+                string any = data.Substring(4);
+                Console.WriteLine($"La data és {dia}/{mes}/{any}");
+            }
+        
+
+
+
+
     }
 }
+

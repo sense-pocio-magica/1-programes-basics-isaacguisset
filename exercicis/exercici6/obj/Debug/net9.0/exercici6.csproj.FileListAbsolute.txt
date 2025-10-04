@@ -1,0 +1,15 @@
+/home/isaac/Escritorio/DAW1/Móduls/Programació/30-9(programes bàsics)/1-programes-basics-isaacguisset/exercicis/exercici6/bin/Debug/net9.0/exercici6
+/home/isaac/Escritorio/DAW1/Móduls/Programació/30-9(programes bàsics)/1-programes-basics-isaacguisset/exercicis/exercici6/bin/Debug/net9.0/exercici6.deps.json
+/home/isaac/Escritorio/DAW1/Móduls/Programació/30-9(programes bàsics)/1-programes-basics-isaacguisset/exercicis/exercici6/bin/Debug/net9.0/exercici6.runtimeconfig.json
+/home/isaac/Escritorio/DAW1/Móduls/Programació/30-9(programes bàsics)/1-programes-basics-isaacguisset/exercicis/exercici6/bin/Debug/net9.0/exercici6.dll
+/home/isaac/Escritorio/DAW1/Móduls/Programació/30-9(programes bàsics)/1-programes-basics-isaacguisset/exercicis/exercici6/bin/Debug/net9.0/exercici6.pdb
+/home/isaac/Escritorio/DAW1/Móduls/Programació/30-9(programes bàsics)/1-programes-basics-isaacguisset/exercicis/exercici6/obj/Debug/net9.0/exercici6.GeneratedMSBuildEditorConfig.editorconfig
+/home/isaac/Escritorio/DAW1/Móduls/Programació/30-9(programes bàsics)/1-programes-basics-isaacguisset/exercicis/exercici6/obj/Debug/net9.0/exercici6.AssemblyInfoInputs.cache
+/home/isaac/Escritorio/DAW1/Móduls/Programació/30-9(programes bàsics)/1-programes-basics-isaacguisset/exercicis/exercici6/obj/Debug/net9.0/exercici6.AssemblyInfo.cs
+/home/isaac/Escritorio/DAW1/Móduls/Programació/30-9(programes bàsics)/1-programes-basics-isaacguisset/exercicis/exercici6/obj/Debug/net9.0/exercici6.csproj.CoreCompileInputs.cache
+/home/isaac/Escritorio/DAW1/Móduls/Programació/30-9(programes bàsics)/1-programes-basics-isaacguisset/exercicis/exercici6/obj/Debug/net9.0/exercici6.sourcelink.json
+/home/isaac/Escritorio/DAW1/Móduls/Programació/30-9(programes bàsics)/1-programes-basics-isaacguisset/exercicis/exercici6/obj/Debug/net9.0/exercici6.dll
+/home/isaac/Escritorio/DAW1/Móduls/Programació/30-9(programes bàsics)/1-programes-basics-isaacguisset/exercicis/exercici6/obj/Debug/net9.0/refint/exercici6.dll
+/home/isaac/Escritorio/DAW1/Móduls/Programació/30-9(programes bàsics)/1-programes-basics-isaacguisset/exercicis/exercici6/obj/Debug/net9.0/exercici6.pdb
+/home/isaac/Escritorio/DAW1/Móduls/Programació/30-9(programes bàsics)/1-programes-basics-isaacguisset/exercicis/exercici6/obj/Debug/net9.0/exercici6.genruntimeconfig.cache
+/home/isaac/Escritorio/DAW1/Móduls/Programació/30-9(programes bàsics)/1-programes-basics-isaacguisset/exercicis/exercici6/obj/Debug/net9.0/ref/exercici6.dll
