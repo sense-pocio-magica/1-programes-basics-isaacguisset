@@ -14,7 +14,7 @@ class Program
     static void Main(string[] args)
     {
         Console.Write("Entra el número a invertir: ");
-        string numero = Console.ReadLine() ?? "0";
+        string numero = Console.ReadLine();
 
         char[] digits = numero.ToCharArray();
         Array.Reverse(digits);
