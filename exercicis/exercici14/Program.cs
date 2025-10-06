@@ -5,6 +5,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var paraula = "pastanaga";
+        char primercaracter = paraula[0];
+        char caracterdelmig = paraula[paraula.Length / 2];
+        char caracterfinal = paraula[paraula.Length - 1];
+        Console.WriteLine($"El primer caràcter és {primercaracter}, el caràcter del mig és {caracterdelmig} i el caràcter del final és {caracterfinal}");
     }
 }
+

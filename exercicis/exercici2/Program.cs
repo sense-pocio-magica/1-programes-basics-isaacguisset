@@ -8,6 +8,14 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var carrer = "narcis munturiol";
+        var n_carrer = 5;
+        var codipostal = 17600;
+        var poblacio = "Figueres";
+
+        Console.WriteLine($"La direcció introduida és carrer {carrer} numero {n_carrer},{codipostal}, {poblacio} ");
+
+
+
     }
 }

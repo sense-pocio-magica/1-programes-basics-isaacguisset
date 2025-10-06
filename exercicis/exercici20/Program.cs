@@ -8,10 +8,21 @@ Entra el número a invertir: 347
 El número invertit és: 743
 */
 
+
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.Write("Entra el número a invertir: ");
+        string numero = Console.ReadLine();
+
+        char[] digits = numero.ToCharArray();
+        Array.Reverse(digits);
+
+        string numeroInvertit = new string(digits);
+
+        Console.WriteLine($"El número invertit és: {numeroInvertit}");
     }
 }
+
+

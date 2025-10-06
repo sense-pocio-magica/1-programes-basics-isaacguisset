@@ -1,23 +1,31 @@
 ﻿namespace exercici1;
 
-/* Escriviu un programa que demani el nom i el cognom de l’usuari i que el presenti com en James Bond
-
-Entra el nom: Pere
-Entra el cognom: González
-
-Em dic González, Pere González
-
-Entra el nom: Joan
-Entra el cognom: Pi
-
-Em dic Pi, Joan Pi 
-
-*/ 
-
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Introdueix el teu nom");
+        var nom = Console.ReadLine() ?? "0";
+        if (nom.Length == 0)
+        {
+            Console.WriteLine("El teu nom no pot estar buit!! ");
+        }
+        else
+        {
+
+            Console.WriteLine("Introdueix el teu cognom");
+            var cognom = Console.ReadLine() ?? "0";
+            if (cognom.Length == 0)
+            {
+                Console.WriteLine("Introdueix alguna cosa ");
+
+            }
+            else
+            {
+
+
+                Console.WriteLine($"Em dic {cognom}, {nom}, {cognom}");
+            }
+        }
     }
 }

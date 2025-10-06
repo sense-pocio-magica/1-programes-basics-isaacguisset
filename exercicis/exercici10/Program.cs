@@ -8,6 +8,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var nom = "Isaac";
+        var anynaix = 2007;
+        var contrassenya = nom + anynaix;
+        Console.WriteLine(contrassenya);
     }
 }
